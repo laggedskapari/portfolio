@@ -1,0 +1,100 @@
+*{
+  background-color: #fbf1c7;
+  color: #282828;
+  font-family: 'JetBrainsMonoMedium', monospace;
+  font-size: 1em;
+}
+
+body{
+  margin: 5% 20% 5% 20%;
+}
+
+.wannabe {
+  font-size: 1.2em;
+}
+
+.intro > p{
+  margin: 0;
+  padding: 2px;
+}
+
+.main_container{
+  display: flex;
+  flex-direction: row;
+}
+
+.exp_container{
+  display: flex;
+  flex-direction: row;
+}
+
+.exp_time {
+  width: 500px;
+}
+
+img {
+  width: 215px;
+  height: 265px;
+  padding-right: 10px;
+
+}
+
+.exp {
+  font-size: 0.95em;
+}
+
+h3{
+  color: #076678;
+}
+
+.subhead{
+  font-size: 0.6em;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.update{
+  margin: 0;
+  padding: 0;
+}
+
+.head{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: url('fonts/JetBrainsMonoNF-BoldItalic.woff2') format('woff2'),
+        url('fonts/JetBrainsMonoNF-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: url('fonts/JetBrainsMonoNF-Bold.woff2') format('woff2'),
+        url('fonts/JetBrainsMonoNF-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMonoMedium';
+    src: url('fonts/JetBrainsMonoNF-Medium.woff2') format('woff2'),
+        url('fonts/JetBrainsMonoNF-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono NF';
+    src: url('fonts/JetBrainsMonoNF-MediumItalic.woff2') format('woff2'),
+        url('fonts/JetBrainsMonoNF-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
